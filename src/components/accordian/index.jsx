@@ -7,7 +7,7 @@ const Accordian = ({ parent, child }) => {
   return (
     <div className="flex flex-col w-full">
       {parent(onToggle, isOpen)}
-      {child(isOpen)}
+      {child(isOpen, onToggle)}
     </div>
   )
 }

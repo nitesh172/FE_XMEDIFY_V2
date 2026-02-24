@@ -14,8 +14,21 @@
     #e1f3ff 0%,
     #2aa7ff 100%
   );
+  --background-image-secondary: linear-gradient(
+    81deg,
+    #eff5fe 9.01%,
+    rgba(241, 247, 255, 0.47) 89.11%
+  );
+
+  --background-image-top-bar: linear-gradient(
+    91.75deg,
+    #2aa7ff 1.4%,
+    #0c8ce6 100.57%
+  );
   --shadow-box-shadow: 6px 6px 35px 0px #1028511c;
   --shadow-doctor-card-shadow: 0px 15px 55px -10px #00000017;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
 }
 
 :root {

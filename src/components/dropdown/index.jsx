@@ -38,6 +38,9 @@ const Dropdown = ({
 
       {open && (
         <ul className="absolute left-0 top-full mt-1 w-full bg-white border border-gray-200 rounded-md shadow-md z-50 max-h-60 overflow-y-auto">
+          <li className="py-2 px-3 hover:bg-gray-100 cursor-pointer">
+            Select {placeholder}
+          </li>
           {options?.map((option) => (
             <li
               key={option}
