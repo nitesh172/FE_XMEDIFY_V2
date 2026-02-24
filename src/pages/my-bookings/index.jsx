@@ -99,9 +99,9 @@ const HospitalCard = ({ hospital }) => {
           </div>
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-3 border-b border-dashed pb-4 border-[#E8E8F0]">
-              <div className="text-[#14BEF0] text-[20px] font-semibold">
+              <h3 className="text-[#14BEF0] text-[20px] font-semibold">
                 {hospital["Hospital Name"]}
-              </div>
+              </h3>
               <div>
                 <div className="font-bold text-[#414146] text-sm">
                   {hospital["City"]}, {hospital["State"]}
