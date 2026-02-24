@@ -6,7 +6,7 @@ import { useNavigate, useLocation } from "react-router"
 
 const index = () => {
   const navigate = useNavigate()
-  const navigateToMyBookings = () => navigate("/my-booking")
+  const navigateToMyBookings = () => navigate("/my-bookings")
   const location = useLocation()
   const currentPathname = location.pathname
 
